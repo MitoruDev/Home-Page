@@ -1,0 +1,679 @@
+/* ! important style for (Mitoru-Web) */
+
+    body {
+        margin: 0;
+        padding:0;
+        font-family: Roboto;
+    }
+
+
+
+/* * Bereich Navigation --------------------------------------------- */
+
+
+    /* ? Container "Navigation" */
+
+        nav {
+            width: 100%;
+            height: 75px;
+            background-color: #022140;
+            word-spacing: 5px;
+        }
+
+        .container-nav {
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+
+
+        /* Navigationsleiste Leftsplit */
+        .nav-leftsplit {
+            height: 100%;
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+        .nav-leftsplit img {
+        height: 50px;
+        margin-right: 10px;
+        }
+        
+        .nav-leftsplit a {
+        text-decoration: none;
+        color: white;
+        font-size: 23px;
+        }
+        
+        .nav-leftsplit a:hover {
+            text-decoration: underline #5680E9;
+        }
+          
+        /* Navigationsleiste Rightsplit */
+        .nav-rightsplit {
+            height: 100%;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            padding-right: 30px;
+        }
+
+        .nav-rightsplit a {
+            padding: 10px 15px;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-rightsplit a:hover {
+            background-color: #5680E9;
+            border-radius: 5px;
+        }
+
+
+/* * Bereich Main --------------------------------------------- */
+
+
+    /* ? Container "Willkommen" */
+    
+    .container-willkommen {
+        height: 720px;
+        display: flex;
+        align-items: center;
+        background-color: #0077ff;
+        background-color: #93C4FF;
+        /* background-image: linear-gradient(19deg, #21D4FD 0%, #4157ff 50%, #B721FF 100%); */
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='720' preserveAspectRatio='none' viewBox='0 0 1920 720'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1025%26quot%3b)' fill='none'%3e%3cpath d='M0 0L695.25 0L0 267.49z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 267.49L695.25 0L1295.3600000000001 0L0 411.56z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 411.56L1295.3600000000001 0L1352.6100000000001 0L0 501.93z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 501.93L1352.6100000000001 0L1517.63 0L0 625.27z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1920 720L1660.1100000000001 720L1920 491.18z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1920 491.18L1660.1100000000001 720L1138.91 720L1920 273.22z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1920 273.22L1138.9099999999999 720L1003.5999999999999 720L1920 139.39000000000001z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1920 139.39L1003.5999999999999 720L690.6699999999998 720L1920 91.82999999999998z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1025'%3e%3crect width='1920' height='720' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        color: #111111;
+    }
+
+
+        /* Leftsplit */
+        .willkommen-leftsplit {
+            width: 70%;
+            margin-left: 20%;
+        }
+
+
+        .willkommen-pbutton {
+            background-color: rgba(0, 0, 0, 0.4);
+            border: 3px solid black;
+            width: 300px;
+            padding: 1px;
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            font-size: 14px;
+        }
+
+        .willkommen-leftsplit button {
+            margin-top: 20px;
+            width: 200px;
+            padding: 10px;
+            background-color: #0066FF; 
+            border: none;
+            border-radius: 10px;
+            filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.5));
+        }
+
+        .willkommen-leftsplit a {
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.5));
+        }
+
+
+        /* Rightsplit */
+        .willkommen-rightsplit {
+            margin-right: 200px;
+        }
+
+        .willkommen-rightsplit img {
+            height: 500px;
+            margin-top: 40px;
+            filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.5));
+        }
+        
+
+    
+    /* ? Container "Leistung" */
+
+        /* Identity Branding */
+        .abschnitt-webdevelopment {
+            color: rgba(0, 0, 0, 0.85);
+            height: 360px;
+            width: 100%;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+        }
+
+            /* Leftsplit */
+            .webdevelopment-leftsplit  {
+                width: 240px;
+                margin-left: 340px;
+                font-size: 200px;
+                color: rgba(36, 114, 167, 0.2);
+            }
+
+            /* Rightsplit */
+            .webdevelopment-rightsplit {
+                width: 40%;
+                margin-top: 8%;
+                height: 100%;
+                align-items: center;
+        
+            }
+
+
+
+        /* Identity Branding */
+        .abschnitt-identitybranding {
+            color: rgba(0, 0, 0, 0.85);
+            height: 360px;
+            width: 100%;
+            background-color: #E1E1E1;
+            display: flex;
+            align-items: center;
+        }
+            /* Leftsplit */
+            .identity-leftsplit {
+                width: 40%;
+                margin-top: 8%;
+                margin-left: 20%;
+                height: 100%;
+                align-items: center;
+        
+            }
+
+            /* Rightsplit */
+            .identity-rightsplit {
+                width: 300px;
+                margin-left: 50px;
+                font-size: 200px;
+                color: rgba(40, 120, 175, 0.2);
+            }
+
+
+
+        /* Text Leistung */
+        .text-leistung {
+            color: black;
+            font-size: 103%;
+            font-weight: 1000;
+        }
+
+
+    /* ? Container "Skills" */
+        
+        /* row1-skills */
+        .row1-skills {
+            margin-top: 40px;
+            height: 200px;
+            display: flex; 
+            align-items: center;
+            
+
+        }
+
+            /* col1-skills */
+            .column1-skills {
+                margin-left: 15%;
+                margin-right: 10%;
+                width: 30%;
+            }
+
+
+            /* col2-skills */
+            .column2-skills {
+                margin-right: 15%;
+                width: 30%;
+            }
+    
+
+        
+        /* row2-skills */    
+        .row2-skills {
+            height: 100px;
+            display: flex; 
+            align-items: center;
+            background-color: #fff;
+        }
+
+            /* col3-skills */
+            .column3-skills {
+                margin-left: 15%;
+                margin-right: 10%;
+                width: 30%;
+            }
+
+
+            /* col4-skills */
+            .column4-skills {
+                margin-right: 15%;
+                width: 30%;
+            }
+        
+    
+
+        /* row3-skills */    
+        .row3-skills {
+            height: 200px;
+            display: flex; 
+            align-items: center;
+            background-color: #fff;
+            margin-bottom: 40px;
+        }
+
+            /* col5-skills */
+            .column5-skills {
+                margin-left: 15%;
+                margin-right: 10%;
+                width: 30%;
+            }
+
+
+            /* col6-skills */
+            .column6-skills {
+                margin-right: 15%;
+                width: 30%;
+            }
+        
+    
+    
+            /* icon-skills */
+            .icon-skills {
+                margin-top: 20px;
+                float: left;
+                width: 65px;
+                height: 35px;
+                text-align: center;
+                padding: 15px 0;
+                font-size: 30px;
+                color: white;
+                background-color: #022140;
+                border-radius: 50px;
+                margin-right: 20px;
+                margin-bottom: 60px;
+                transition: color 0.5s, transform 0.5s;
+            }
+
+            .icon-skills:hover {
+                transform: rotate(360deg); 
+            }
+
+
+
+            /* header-skills */
+            .text-skills h5 {
+                font-size: 150%;
+                color: #1e1e1e;
+                margin: 0;
+                margin-top: 24px;
+            }
+
+            .text-skills p {
+                color: rgba(31, 31, 31, 0.75);
+            }
+
+
+
+
+    /* ? Container "Kunden" */
+
+
+
+
+    /* ? Container "Kontakt" */
+
+        .container-kontakt {
+            height: 650px;
+            width: 100%;
+            background-color: #E1E1E1;
+            display: flex;
+            align-items: center;
+        }
+
+        .form-kontakt {
+            text-align: center;
+            width: 35%;
+            margin: 0 auto;
+            height: 85%;
+        }
+
+        
+        /* Input Felder */
+        .form-kontakt .input-field {
+            font-family: 'Franklin Gothic Medium';
+            font-size: 22px;
+            color:rgb(120, 120, 120);
+            border: none;
+            border-radius: 3px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+            padding: 20px 10px;
+            margin-bottom: 20px;
+            width: 100%;
+            filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+        }
+
+        .form-kontakt .input-field:focus {
+            color:rgb(39, 39, 39);
+            outline: 4px solid #31708E;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        }
+
+
+        /* Button zum absenden */
+        .form-kontakt .button {
+            font-size: 18px;
+            color: #111111;
+            background-color: white;
+            border: 2px solid #111111;
+            border-radius: 5px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            padding: 10px 20px;
+            margin-right: 855px;
+            filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+        }
+
+        .form-kontakt .button:hover {
+            color: #31708E;
+            border: 2px solid #31708E;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        }
+
+          
+
+        .kontakt-icons {
+            position: relative;
+            display: inline-block;
+            margin: 0px;
+        }
+        
+          #email-icon {
+            font-size: 30px;
+            color: #022140;
+            text-align: center;
+            border-radius: 6px;
+            position: absolute;
+            top: 187px;
+            left: 285px;
+            z-index: 1;
+          }
+
+          #name-icon {
+            font-size: 30px;
+            color: #022140;
+            text-align: center;
+            border-radius: 6px;
+            position: absolute;
+            top: 102px;
+            left: 285px;
+            z-index: 1;
+          }
+
+          #message-icon {
+            font-size: 30px;
+            color: #022140;
+            text-align: center;
+            border-radius: 6px;
+            position: absolute;
+            top: 269px;
+            left: 285px;
+            z-index: 1;
+          }
+
+    
+    /* ? Container "Zitate" */
+        
+        .container-zitate {
+
+        background-color: rgb(250, 240, 240);
+        height: 600px;           
+        width: 100%; 
+        display: flex; 
+        align-items: center;
+
+        }
+
+    
+            /* Form Input */
+            .zitate-formular {
+                text-align: center;
+                width: 40%;
+            }
+
+            .zitate-formular form{
+                width: 100%;
+                margin: 0 auto;
+            }
+
+            .zitate-formular input {
+                margin-left: 10px;
+                padding: 9px;
+                filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.5));
+                outline: 1px solid black;
+                border-radius: 2px;
+                border: none;
+                color: rgba(0, 0, 0, 0.753);
+            }
+
+            .zitate-formular input:hover {
+                outline: 1px solid rgb(0, 174, 255);
+                border: none;
+            }
+
+            .zitate-formular input:focus {
+                outline: 2px solid black;
+                border: none;
+                color: rgb(0, 0, 0);
+                
+            }
+
+            .zitate-formular button {
+                padding: 10px;
+                margin-left: 8px;
+                background-color: #3794ce;
+                color: white;
+                filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.5));
+                border-radius: 2px;
+                border: 1px solid #111111;                
+                cursor: pointer;
+            }
+    
+            .zitate-formular button:hover {
+                box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+            }
+
+
+
+            /* Form Output */
+            .zitat-ausgabe {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                width: 55%;
+                height: 75%;
+                background-color: #8FC1E3;
+                border-radius: 7px;
+                font-size: 40px;
+                overflow: auto;
+                color: white;
+                padding: 0 20px;
+                text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+                filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.5));
+            }
+
+
+/* * Bereich Footer --------------------------------------------- */
+
+
+    /* ? Container "Footer" */
+
+        .container-footer {
+            width: 100%;
+            background-color: #5085A5;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container-footer div {
+            width: 33.3%;
+            text-align: center;
+            color: white;
+        }
+
+        .container-footer h3 {
+            font-size: 25px;
+        }
+
+
+        /* Footer - leftsplit *********************/
+        .footer-leftsplit a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .footer-leftsplit a:hover {
+            text-decoration: underline #111111 ;
+            cursor: pointer;
+        }
+
+        /* Footer - Middlesplit *********************/
+        /* Input */
+        .footer-middlesplit input {
+            padding: 10px;
+            text-align: center;
+            width: 250px;
+            border: 0px solid transparent;
+            filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.5));
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .footer-middlesplit input:focus {
+            outline: none;
+        }
+
+
+        /* Button */
+        .footer-middlesplit button {
+            background-color: transparent;
+            padding: 5px;
+            color: white;
+            width: 150px;
+            border-radius: 10px;
+            border: 1px solid white;
+            filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.5));
+            font-size: 18px;
+        }
+
+        .footer-middlesplit button:hover{
+            background-color: #111111;
+            cursor: pointer;
+        }
+
+
+        /* Footer - Rightsplit *********************/
+        /* Icons */
+        .footer-rightsplit a {
+            color: white;
+            display: block;
+            text-decoration: none;
+        }
+
+        .footer-rightsplit a:hover {
+            text-decoration: underline 1.5px solid black;
+        }
+
+       
+        .social-icons{
+            margin-top:15px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .social-icons i{
+        font-size: 22px;
+        cursor: pointer;
+        padding: 10px;
+        }
+
+        .social-icons i:hover {
+        border-radius: 5px;
+        background-color: #111111;
+        }
+        .social-icons a{
+        display: inline;
+        text-decoration: none;
+        color: #fff;
+        }
+        
+
+    
+    /* ? Container "Admin-Login" */
+        
+        /* Container "Admin-Login" */
+        .container-login {
+            margin-top: 5px;
+            height:50px;
+            width: 100%;
+            background-color: #111111;
+            border: 1px solid white;
+            bottom: 0px;
+            display: flex;
+            align-items: center;
+        }
+
+        .container-login button {
+            width: 130px;
+            padding: 5px 2px;
+            margin: 0 auto;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 4px;
+        }
+
+        .container-login button:hover {
+            background-color: #5680E9;
+        }
+
+        .container-login button a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+        /* Tooltip für Button */
+        #tooltip {
+            position: relative;
+            display: inline-block;
+          }
+          
+          #tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #111111;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 48px;
+            left: -30%;
+            z-index: 1;
+          }
+
+
+          #tooltip:hover .tooltiptext {
+            visibility: visible;
+          }
