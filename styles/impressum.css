@@ -98,6 +98,10 @@
 
 /* * Bereich Footer --------------------------------------------- */
 
+footer h3 {
+            text-decoration: 3px underline #00335e;
+            text-underline-offset: 8px;
+        }
 
     /* ? Container "Footer" */
 
@@ -178,7 +182,7 @@
         }
 
         .footer-rightsplit a:hover {
-            text-decoration: underline 1.5px solid black;
+            text-decoration: underline #111111 ;
         }
 
        
