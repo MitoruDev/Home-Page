@@ -1,0 +1,254 @@
+/* ! important style for (Mitoru-Web/impressum.html) */
+
+    body {
+        margin: 0;
+        padding:0;
+        font-family: Roboto;
+    }
+
+
+
+/* * Bereich Navigation --------------------------------------------- */
+
+
+    /* ? Container "Navigation" */
+
+        nav {
+            width: 100%;
+            height: 75px;
+            background-color: #022140;
+            word-spacing: 5px;
+        }
+
+        .container-nav {
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+
+
+        /* Navigationsleiste Leftsplit */
+        .nav-leftsplit {
+            height: 100%;
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+        .nav-leftsplit img {
+        height: 50px;
+        margin-right: 10px;
+        }
+        
+        .nav-leftsplit a {
+        text-decoration: none;
+        color: white;
+        font-size: 23px;
+        }
+        
+        .nav-leftsplit a:hover {
+            text-decoration: underline #5680E9;
+        }
+          
+        /* Navigationsleiste Rightsplit */
+        .nav-rightsplit {
+            height: 100%;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            padding-right: 30px;
+        }
+
+        .nav-rightsplit a {
+            padding: 10px 15px;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-rightsplit a:hover {
+            background-color: #5680E9;
+            border-radius: 5px;
+        }
+
+
+/* * Bereich Main --------------------------------------------- */
+
+
+    /* ? Container "Impressum" */
+
+        .container-impressum {
+            display:flex;
+            margin: 40px auto;
+        }
+
+
+/* * Bereich Footer --------------------------------------------- */
+
+
+    /* ? Container "Footer" */
+
+        .container-footer {
+            width: 100%;
+            background-color: #5085A5;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container-footer div {
+            width: 33.3%;
+            text-align: center;
+            color: white;
+        }
+
+        .container-footer h3 {
+            font-size: 25px;
+        }
+
+
+        /* Footer - leftsplit *********************/
+        .footer-leftsplit a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .footer-leftsplit a:hover {
+            text-decoration: underline #111111 ;
+            cursor: pointer;
+        }
+
+        /* Footer - Middlesplit *********************/
+        /* Input */
+        .footer-middlesplit input {
+            padding: 10px;
+            text-align: center;
+            width: 250px;
+            border: 0px solid transparent;
+            filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.5));
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .footer-middlesplit input:focus {
+            outline: none;
+        }
+
+
+        /* Button */
+        .footer-middlesplit button {
+            background-color: transparent;
+            padding: 5px;
+            color: white;
+            width: 150px;
+            border-radius: 10px;
+            border: 1px solid white;
+            filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.5));
+            font-size: 18px;
+        }
+
+        .footer-middlesplit button:hover{
+            background-color: #111111;
+            cursor: pointer;
+        }
+
+
+        /* Footer - Rightsplit *********************/
+        /* Icons */
+        .footer-rightsplit a {
+            color: white;
+            display: block;
+            text-decoration: none;
+        }
+
+        .footer-rightsplit a:hover {
+            text-decoration: underline 1.5px solid black;
+        }
+
+       
+        .social-icons{
+            margin-top:15px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .social-icons i{
+        font-size: 22px;
+        cursor: pointer;
+        padding: 10px;
+        }
+
+        .social-icons i:hover {
+        border-radius: 5px;
+        background-color: #111111;
+        }
+        .social-icons a{
+        display: inline;
+        text-decoration: none;
+        color: #fff;
+        }
+        
+
+    
+    /* ? Container "Admin-Login" */
+        
+        /* Container "Admin-Login" */
+        .container-login {
+            margin-top: 5px;
+            height:50px;
+            width: 100%;
+            background-color: #111111;
+            border: 1px solid white;
+            bottom: 0px;
+            display: flex;
+            align-items: center;
+        }
+
+        .container-login button {
+            width: 130px;
+            padding: 5px 2px;
+            margin: 0 auto;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 4px;
+        }
+
+        .container-login button:hover {
+            background-color: #5680E9;
+        }
+
+        .container-login button a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+        /* Tooltip für Button */
+        #tooltip {
+            position: relative;
+            display: inline-block;
+          }
+          
+          #tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #111111;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 48px;
+            left: -30%;
+            z-index: 1;
+          }
+
+
+          #tooltip:hover .tooltiptext {
+            visibility: visible;
+          }
