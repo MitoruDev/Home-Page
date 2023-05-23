@@ -80,7 +80,19 @@
     /* ? Container "Impressum" */
 
         .container-impressum {
-            margin: 40px auto;
+            margin: 50px 60px;
+        }
+
+        .container-impressum h1 {
+            color: #022140;
+            font-size: 50px;
+            margin-bottom: 0px;
+            text-decoration: underline #022140;
+            text-underline-offset: 15px;
+        }
+
+        .container-impressum p {
+            margin-left: 25px;
         }
 
 
